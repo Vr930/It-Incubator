@@ -9,12 +9,30 @@
 </head>
 <body>
     <header>
-        <div class="class">1</div>
-        <div class="class">2</div>
-        <div class="class">3</div>
-        <div class="class">4</div>
-        <div class="class">5</div>
-        <div class="class">6</div>
+        <div class="slider" id="itk-slider1">
+            <button class="slider__leftButton _button">
+                <div class="arrow">&#11013</div>
+            </button>
+            <div class="slider__window">
+                <img class="image" src="/img/fantastika_volk_32929.jpg" alt="1" width="600px" height="500px">
+            </div>
+            <button class="slider__rightButton _button">
+                <div class="arrow">&#10145</div>
+            </button>
+        </div>
+        <div class="slider" id="itk-slider2">
+            <button class="slider__leftButton _button">
+                <div class="arrow">&#11013</div>
+            </button>
+            <div class="slider__window">
+                <img class="image" src="/img/fantastika_scul.jpg" alt="1" width="600px" height="500px">
+            </div>
+            <button class="slider__rightButton _button">
+                <div class="arrow">&#10145</div>
+            </button>
+        </div>
+        <script src="slider.js"></script>
+        <script src="script.js"></script>
     </header>
     <main>
         <h2>CatPhotoApp</h2>
@@ -28,7 +46,14 @@
           <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
         </main>
     </main>
-    <footer></footer>
+    <footer>
+        <label for="indoor">
+            <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
+          </label>
+          <label for="outdoor">
+            <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor
+          </label>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
