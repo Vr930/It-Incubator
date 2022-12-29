@@ -32,5 +32,11 @@ class Worker {
 
   worker.setRate(20); //увеличим ставку
   worker.setDays(10); //уменьшим дни
-  console.log(worker);
-  console.log(worker.getSalary());
+
+
+  const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+
+const ourArray = ["Stimpson", "J", ["cat"]];
+const removedFromOurArray = ourArray.shift();
+console.log(removedFromOurArray);
