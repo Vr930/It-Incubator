@@ -1,9 +1,29 @@
-.class {
-    color: blue;
+body{
+    background-color: rgb(18, 18, 49);
 }
-body {
-    background: rgb(235, 146, 14);
+.slider{
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1000px;;
+    background:  rgb(49, 49, 155);
+    display: flex;
+    justify-content: space-around;
 }
-p {
-    color: rgb(55, 147, 201);
+._button{
+    height: 25px;
+    width: 50px;
+    background: rgb(185, 84, 37);
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 250px;
+}
+.arrow{
+    text-align: center;
+}
+.slider__window{
+width: 600px;
+height: 500px;
+border: 1px solid black;
 }
